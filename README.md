@@ -2,7 +2,7 @@
 
 This sample uses Auth0 and its integration with AWS APIs (S3, SES, DynamoDB, EC2, etc.) in combination with the powerful IAM policies.
 
-**Demo: <http://auth0.github.io/auth0-s3-sample>**
+**Demo: <http://auth0-samples.github.io/auth0-s3-sample>**
 
 ![](https://cloudup.com/cSwYBXbHdfc+)
 
