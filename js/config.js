@@ -1,9 +1,9 @@
 window.config = {
-  bucket:         'assets.tests.auth0.com',
-  folder_prefix:  'dropboxclone/',
-  role:           'arn:aws:iam::010616021751:role/access-to-s3-per-user',  // AWS role arn
-  principal:      'arn:aws:iam::010616021751:saml-provider/auth0-provider', // AWS saml provider arn
-  domain:         'matugit.auth0.com',                // Auth0 domain
-  clientID:       'bm70oLevwEM6PjICBnczyNySHjFkDcNR', // Auth0 app client id
-  targetClientId: 'jAbmUzhI7KZ5cWG8gsyT3IaTg0dS9KZV' // Auth0 AWS API client id
+  bucket:         'BUCKET_NAME',
+  folder_prefix:  'foldername/',
+  role:           'IAM_ROLE',  // AWS role arn
+  principal:      'SAML_ARN', // AWS saml provider arn
+  domain:         'YOUR_DOAMIN.auth0.com',                // Auth0 domain
+  clientID:       'YOUR_AUTH0_CLIENT_ID', // Auth0 app client id
+  targetClientId: 'YOUR_AWS_API_CLIENT_ID' // Auth0 AWS API client id
 };
